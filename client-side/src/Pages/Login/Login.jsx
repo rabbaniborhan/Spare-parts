@@ -11,7 +11,7 @@ const Login = () => {
             {/* login page */}
             <div className="grid md:grid-cols-2 grid-cols-1">
                 {/* login section */}
-                <div className="my-16 mx-24 px-16">
+                <div className="my-16 mx-24 md:px-16">
                     <h2 className="text-4xl py-9">Login</h2>
                     <form className="flex flex-col gap-y-4" onSubmit={handleSubmit(onSubmit)}>
                         <div>
