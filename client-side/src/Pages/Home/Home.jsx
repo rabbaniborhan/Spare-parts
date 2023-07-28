@@ -7,10 +7,9 @@ import PopularProducts from "../../Components/PopularProducts/PopularProducts";
 const Home = () => {
   return (
     <div>
-        <HomeBanner></HomeBanner>
-        <PopularProducts></PopularProducts>
-        <HomeProduct></HomeProduct>
-     
+      <HomeBanner></HomeBanner>
+      <PopularProducts></PopularProducts>
+      <HomeProduct></HomeProduct>
     </div>
   );
 };

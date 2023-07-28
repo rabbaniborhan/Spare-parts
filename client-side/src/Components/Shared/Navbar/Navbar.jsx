@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import img from "../../../assets/image/logo.png";
 import Container from "../../Container";
 
@@ -6,19 +6,19 @@ const Navbar = () => {
   const options = (
     <>
       <li>
-       <Link>Home</Link>
+        <Link>Home</Link>
       </li>
       <li>
-       <Link>Shope</Link>
+        <Link>Shope</Link>
       </li>
       <li>
-       <Link>About</Link>
+        <Link>About</Link>
       </li>
       <li>
-       <Link>Contact</Link>
+        <Link>Contact</Link>
       </li>
       <li>
-       <Link>Tools</Link>
+        <Link>Tools</Link>
       </li>
     </>
   );
@@ -60,7 +60,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{options}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Link to='/login' className="btn">Login</Link>
         </div>
       </div></Container>
     </div>
