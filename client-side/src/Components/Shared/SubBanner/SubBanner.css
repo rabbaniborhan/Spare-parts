@@ -2,7 +2,8 @@
     position: relative;
     height: 250px;
     width: 100%;
-    background-image: url('../../../assets/image/banner2.jpeg');
+    background-image: url('../../../assets/image/banner2.jpeg') ;
+
     background-size: contain;
     background-repeat: no-repeat;
 }
