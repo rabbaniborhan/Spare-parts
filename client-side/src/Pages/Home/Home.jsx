@@ -10,6 +10,7 @@ import HomeBlog from './../../Components/HomeBlog/HomeBlog';
 const Home = () => {
   return (
     <div>
+
         <HomeBanner></HomeBanner>
         <PopularProducts></PopularProducts>
         <HomeProduct></HomeProduct>
