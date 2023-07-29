@@ -3,7 +3,7 @@ import logo from '../../../assets/image/logo.png';
 
 const SubBanner = ({heading, subHeading}) => {
     return (
-        <section className="bg-banner bg-fixed">
+        <section className="bg-banner bg-fixed md:bg-contain bg-cover">
             <div className='content'>
                 <img className='h-12' src={logo} alt="" />
                 <h3 className='text-5xl text-black font-semibold'>{heading}</h3>
